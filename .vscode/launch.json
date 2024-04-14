@@ -1,0 +1,11 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Zip and push the f*** to my phone!",
+			"request": "launch",
+			"type": "node-terminal",
+			"command": "winrar u -r -afzip ld.zip system module.prop README.md META-INF *.sh && sleep 1 && adb push ./ld.zip /sdcard/Download && adb shell su -c \"ls /sys/bin/linuxdeploy\" || adb shell su -c \"magisk --install-module /sdcard/Download/ld.zip && reboot\"",
+		}
+	]
+}
