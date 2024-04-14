@@ -3,4 +3,4 @@ name=Linux Deploy Shortcut
 version=uwu
 versionCode=2
 author=VisualPlugin
-description=Assuming that the ENV path is valid, creates a shortcut in /sys/bin to run the Linux Deploy utility.
+description=Assuming that the ENV path is valid, creates a shortcut in /system/bin to run the Linux Deploy utility.
